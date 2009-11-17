@@ -12,6 +12,7 @@ Source0:	http://pixybox.seclab.tuwien.ac.at/pixy/dist/%{name}_%{ver}.zip
 # Source0-md5:	037873e8cdfc0d616697798837d76706
 URL:		http://pixybox.seclab.tuwien.ac.at/pixy/index.php
 BuildRequires:	rpmbuild(macros) >= 1.461
+BuildRequires:	unzip
 Requires:	jre
 Requires:	junit
 BuildArch:	noarch
